@@ -7,8 +7,8 @@ import {
   ChatsTeardropIcon,
 } from "phosphor-react-native"
 import { theme } from "@/theme/global"
-import { Button } from "./components/Button"
-import { styles } from "./styles"
+import Button from "./components/Button"
+import styles from "./styles"
 
 export default function Index() {
   const [notifications, setNotifications] = useState([])

@@ -5,6 +5,6 @@ type Props = {
   children: ReactNode
 } & PressableProps
 
-export function Button({ children, ...rest }: Props) {
+export default function Button({ children, ...rest }: Props) {
   return <Pressable {...rest}>{children}</Pressable>
 }
